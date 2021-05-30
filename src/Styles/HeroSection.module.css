@@ -1,0 +1,73 @@
+@keyframes backDropAnimation {
+  from {
+    backdrop-filter: blur(20px) brightness(150%);
+  }
+  30% {
+    backdrop-filter: blur(0px) brightness(100%);
+  }
+  70% {
+    backdrop-filter: blur(0px) brightness(100%);
+  }
+  to {
+    backdrop-filter: blur(20px) brightness(150%);
+  }
+}
+
+.HeroSection {
+  background-position: 3% center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.HeroContentContainer {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: grid;
+  align-items: center;
+}
+
+.HeroContent {
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  animation: backDropAnimation 10s infinite;
+  backdrop-filter: blur(20px) brightness(150%);
+}
+
+.HeroGreet {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 6px rgb(0 0 0 / 95%);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.HeroGreet:hover {
+  letter-spacing: 5.5px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.HeroName {
+  font-family: var(--SaintFont);
+  text-align: center;
+  font-size: 4em;
+  height: 74px;
+  margin-bottom: 20px;
+  letter-spacing: -0.25px;
+  text-shadow: 0px 2px 6px rgb(0 0 0 / 95%);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.HeroName:hover {
+  letter-spacing: 0.5px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
