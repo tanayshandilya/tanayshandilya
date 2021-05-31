@@ -30,3 +30,17 @@
 .TimerTextBig {
   font-size: 38px;
 }
+
+@media (max-width: 576px) {
+  .TimerText {
+    font-size: 12px;
+  }
+  .TimerTextBig {
+    font-size: 26px
+  }
+  .TimerContainer:hover {
+    grid-gap: 25px;
+    letter-spacing: 3px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  }
+}

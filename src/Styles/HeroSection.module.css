@@ -1,18 +1,3 @@
-@keyframes backDropAnimation {
-  from {
-    backdrop-filter: blur(20px) brightness(150%);
-  }
-  30% {
-    backdrop-filter: blur(0px) brightness(100%);
-  }
-  70% {
-    backdrop-filter: blur(0px) brightness(100%);
-  }
-  to {
-    backdrop-filter: blur(20px) brightness(150%);
-  }
-}
-
 .HeroSection {
   background-position: 3% center;
   background-size: auto;
@@ -33,12 +18,8 @@
 }
 
 .HeroContent {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
-  padding: 30px;
-  border-radius: 5px;
-  animation: backDropAnimation 10s infinite;
-  backdrop-filter: blur(20px) brightness(150%);
 }
 
 .HeroGreet {
@@ -70,4 +51,16 @@
 .HeroName:hover {
   letter-spacing: 0.5px;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+@media (max-width: 576px) {
+  .HeroGreet {
+    font-size: 20px;
+  }
+  .HeroName {
+    font-size: 2.5em;
+  }
+  .HeroContent {
+    max-width: 300px;
+  }
 }
