@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<h1 align="center">Tanay Shandilya</h1>
+<h2 align="center">About me</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```golang
+package main
 
-## Available Scripts
+import (
+	"fmt"
+)
 
-In the project directory, you can run:
+type Bio map[string]string
 
-### `yarn start`
+func main() {
+	for k, v := range GetBio() {
+		fmt.Printf("%+v: %+v\n", k, v)
+	}
+}
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+func GetBio() Bio {
+	return Bio{
+		"- ⚡ Quick bio:":                    "A Cloud Security Professional, Developer, Cloud Architect, Blockchain Enthusiast and a Photographer",
+		"- 🔭 I’m currently working on":      "Blockchain Pet Projects, ISO Compliances, Security Management",
+		"- 🌱 I’m currently learning":        "Golang, MongoDB, RabbitMQ, K8s, GCP also Sharpening my Front End Skills for the MERN stack",
+		"- 👯 I’m looking to collaborate on": "NodeJs, Golang and Docker related projects",
+		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
+		"- 💬 Ask me about":                  "JavaScript, PHP, WordPress, Software Design & Architecture, Cloud and Security",
+		"- 📫 How to reach me:":              "https://tanayshandlya.com",
+	}
+}
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2 align="center">You can reach me at :alien:</h2>
 
-### `yarn test`
+<p align="center">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <a href="https://www.linkedin.com/in/tanayshandilya">
+    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Tanay Shandilya's LinkedIn Profile" height="30" width="30">
+  </a>
+  
+  <a href="mailto:info@tanayshandilya.com">
+    <img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" alt="Tanay Shandilya's Email" height="30" width="30">
+  </a>
+  
+  <a href="https://t.me/tanayshandilya">
+    <img src="https://www.vectorlogo.zone/logos/telegram/telegram-icon.svg" alt="Tanay Shandilya's Telegram Profile" height="30" width="30">
+  </a>
+  
+  <a href="https://instagram.com/tanay_shandilya">
+    <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="Tanay Shandilya's Instagram" height="30" width="30">
+  </a>
+</p>
 
-### `yarn build`
+<h2 align="center">Github stats :bar_chart:</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h4 align="center">Visitor's count :eyes:</h4>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center"><img src="https://profile-counter.glitch.me/{tanayshandilya}/count.svg" alt="AnhellO :: Visitor's Count" /></p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h4 align="center">Top langs :tongue:</h4>
 
-### `yarn eject`
+<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanayshandilya&langs_count=10&theme=tokyonight&layout=compact" alt="AnhellO :: Top Langs" /></p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h4 align="center">Profile stats :musical_keyboard:</h4>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=tanayshandilya&show_icons=true&theme=synthwave" alt="AnhellO :: Profile Stats" /></p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
