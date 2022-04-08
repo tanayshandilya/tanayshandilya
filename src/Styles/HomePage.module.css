@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.center {
+  margin: 0 auto;
+  margin-top: -85px;
+}

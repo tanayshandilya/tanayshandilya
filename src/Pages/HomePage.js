@@ -1,7 +1,14 @@
-import HeroSection from '../Components/HeroSection.jsx';
+import styles from '../Styles/HomePage.module.css'
+import Avatar from "../Components/Avatar";
+import TextBox from '../Components/TextBox';
 
 export default function HomePage(){
   return(
-    <HeroSection/>
+    <div className={styles.main}>
+      <div className={styles.center}>
+        <Avatar/>
+        <TextBox/>
+      </div>
+    </div>
   )
 }

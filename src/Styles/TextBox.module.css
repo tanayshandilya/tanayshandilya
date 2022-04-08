@@ -1,0 +1,104 @@
+.text {
+  display: block;
+  margin-top: 0;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.primary {
+  color: var(--color-primary) !important;
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-lightn);
+}
+
+.foot {
+  color: var(--color-white);
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.textMain {
+  text-align: center;
+  max-width: 350px;
+}
+
+.socialContainer {
+  margin-top: 20px;
+}
+
+.button {
+  cursor: pointer;
+  background: var(--background-color-1);
+  border-radius: 6px;
+  -webkit-box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow-1);
+  display: inline-block;
+  font-size: 30px !important;
+  text-decoration: none;
+  color: inherit;
+  height: 60px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  width: 60px;
+  z-index: 1;
+  border: none;
+  font-size: var(--h5);
+  padding-top: 4px;
+}
+
+.button:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.button::before {
+  background: -webkit-linear-gradient(left top,#212428,#16181c);
+  background: linear-gradient(to right bottom,#212428,#16181c);
+  border-radius: 6px;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  width: 100%;
+  z-index: -1;
+}
+
+.button:hover::before {
+  opacity: 1;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  background: -webkit-linear-gradient(left top,#212428,#16181c);
+  background: linear-gradient(to right bottom,#212428,#16181c);
+}
+
+.button:first-child {
+  margin-right: 8px;
+}
+
+.button:last-child {
+  margin-left: 8px;
+}
