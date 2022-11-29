@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Styles/Timer.module.css'
 
-const countDownDate = new Date("Dec 1, 2022 00:00:00").getTime()
+const countDownDate = new Date("Mar 1, 2022 00:00:00").getTime()
 
 export default function Timer(){
 
@@ -17,12 +17,12 @@ export default function Timer(){
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
     var seconds = Math.floor((distance % (1000 * 60)) / 1000)
-    
+
     setDays(days)
     setHrs(hours)
     setMins(minutes)
     setSec(seconds)
-  
+
     if (distance < 0) {
       clearInterval(x)
     }
