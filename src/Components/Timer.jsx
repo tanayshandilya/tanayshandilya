@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Styles/Timer.module.css'
 
-const countDownDate = new Date("Mar 1, 2023 00:00:00").getTime()
+const countDownDate = new Date("May 30, 2023 00:00:00").getTime()
 
 export default function Timer(){
 
