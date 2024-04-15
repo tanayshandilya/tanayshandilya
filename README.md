@@ -1,5 +1,11 @@
 # 💫 About Me:
-🔭 **I’m currently working on:**  <br>Improving cloud-based IoT solutions and implementing microservices architecture.<br><br>👯 **I’m looking to collaborate on:**  <br>MERN stack projects<br><br>🌱 **I’m currently learning:**  <br>Fullstack development, Advanced AWS, Kubernetes, JEST.<br><br>💬 **Ask me about:**  <br>JavaScript, React, Nextjs, Node.js, AWS, and information security.<br>
+🔭 **I’m currently working on:**  <br>Improving cloud-based IoT solutions and implementing microservices architecture.<br><br>👯 **I’m looking to collaborate on:**  <br>MERN stack projects<br><br>🌱 **I’m currently learning:**  <br>Fullstack development, Advanced AWS, Kubernetes, JEST.<br><br>💬 **Ask me about:**  <br>JavaScript, React, Nextjs, Node.js, AWS, and information security.<br><br> 🔥**Must Checkout** <br> 
+- [@tanayshandilya/react-learning](https://github.com/tanayshandilya/react-learning)
+- [@tanayshandilya/iot-socket-serve](https://github.com/tanayshandilya/iot-socket-server)
+- [@tanayshandilya/blockchain](https://github.com/tanayshandilya/blockchain)
+- [@tanayshandilya/unique-id](https://github.com/tanayshandilya/unique-id)
+- [@tanayshandilya/Carbon-Footprint-Monitoring-System](https://github.com/tanayshandilya/Carbon-Footprint-Monitoring-System)
+- [@tanayshandilya/text_wrangler](https://github.com/tanayshandilya/text_wrangler)
 
 ## 🌐 Socials:
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/tanayshandilya) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/tanayshandilya) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tanayshandilya)
