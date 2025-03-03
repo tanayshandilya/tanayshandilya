@@ -50,7 +50,7 @@ function randomInt(min, max) { // min and max included
 export default function Avatar(){
 
   const RandomImg = ()=>{
-    return <img className={styles.img} src={images[randomInt(1,20)]} alt='me' />
+    return <img className={styles.img} src={images[randomInt(0,19)]} alt='me' />
   }
 
   return(
