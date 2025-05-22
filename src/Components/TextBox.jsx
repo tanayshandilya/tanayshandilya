@@ -27,7 +27,7 @@ export default function TextBox(){
   return(
     <div className={styles.textMain}>
       <div className={styles.text}>Hi, I am <br/><span className={styles.primary}>Tanay Shandilya</span></div>
-      <div className={styles.desc}>I am a cyber security consultant, cloud architect, hobby developer, data science enthusiast, and also a blockchain geek. I am currently working as a Cyber Risk Consultant @ Deloitte.</div>
+      <div className={styles.desc}>I am a cyber security consultant, cloud architect, hobby developer, data science enthusiast, and also a blockchain geek. I am currently working as a Senior Consultant 1 @ Aujas Cybersecurity.</div>
       <div className={styles.foot}>Website is coming soon</div>
       <Timer/>
       <div className={styles.socialContainer}>
